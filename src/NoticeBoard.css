@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+  width: 90rem;
+height: 412.5rem;
+}
+
+.notice{
+color: #661255;
+font-size: 3rem;
+font-family: Noto Sans;
+font-weight: 500;
+letter-spacing: -0.04688rem;
+}
+
+.noticeheading{
+color: rgba(0, 0, 0, 0.84);
+font-size: 2rem;
+font-family: Noto Sans;
+font-weight: 500;
+letter-spacing: -0.04688rem;
+text-align: left;
+margin-left: 100px;
+}
+
+
+.App-header {
+  background-color:white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+ 
+}
+
+.container{
+  display: flex;
+}
+
+.month{
+  margin-left: 15px;
+  color: #000;
+font-size: 1.23438rem;
+font-family: Noto Sans;
+font-weight: 500;
+letter-spacing: -0.04688rem;
+}
+
+.heading{
+  display: flex;
+  width: 59.6875rem;
+  height: 2.75rem;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(0, 0, 0, 0.73);
+font-size: 1rem;
+font-family: Noto Sans;
+letter-spacing: -0.04688rem;
+text-align: left;
+margin-left: 35px;
+}
+
+.view{
+ 
+  font-size: 1.5rem;
+  font-family: Noto Sans;
+  line-height: 2.4375rem;
+  margin-left: 65rem;
+  text-align: right;
+  color: #703364; 
+}
+
+.button{
+  display: inline-flex;
+padding: 0.47125rem 0.94256rem;
+align-items: flex-start;
+gap: 0.47125rem;
+border-radius: 7.54px;
+border: 1px solid #703364;
+background: #703364;
+color: #FFF;
+font-size: 0.875rem;
+font-family: Noto Sans;
+line-height: 1.13106rem;
+width: 120px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+#arrow{
+  width: 1.59375rem;
+height: 0.875rem;
+flex-shrink: 0;
+}
+
+.parent{
+  position: relative;
+}
+
+#Ell34{
+  width: 4.9375rem;
+height: 4.9375rem;
+flex-shrink: 0;
+border-radius: 79px;
+background: rgba(117, 117, 117, 0.37);
+filter: blur(5px);
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+#Ell39{
+  width: 3.625rem;
+  height: 3.625rem;
+  flex-shrink: 0;
+  border-radius: 58px;
+background: #703364;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+#text{
+position: absolute;
+top: -8px;
+left: 23px;
+color: #FFF;
+font-size: 2rem;
+font-family: Noto Sans;
+font-weight: 700;
+letter-spacing: -0.04688rem;
+}
+
