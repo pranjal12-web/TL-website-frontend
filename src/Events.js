@@ -18,7 +18,7 @@ function Events() {
         </div>
 
          <div id='boxright'>
-           <p className='date'>June 18,2018 </p>
+           <p className='date'>June 18,2018</p>
             <p className='title'>Smart India Hackathon <br></br> 2018</p>
             <div className='knowMore'>
                 <div><img src={Arrow} id='arrow'></img></div>
